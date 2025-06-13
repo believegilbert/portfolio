@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="mt-[3.8rem] sm:mt-[10rem] flex flex-col mx-auto w-[100%]">
+    <div className="mt-[3.8rem] sm:mt-[10rem] flex flex-col mx-auto w-[100%]" id="home">
       <div className="flex justify-center">
         
   <div className="block sm:flex items-center justify-between mx-auto w-[70%]">
@@ -14,12 +14,12 @@ const Home = () => {
         <span>a</span>
         <span>Software Engineer</span>
       </div>
-      <span className="select-none text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] bg-[#1b91f1] py-[6px] px-[17px] text-white rounded-[0.5rem]">
+      <a href="#contact"><span className="select-none text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] bg-[#1b91f1] active:bg-[#48acff] py-[6px] px-[17px] text-white rounded-[0.5rem]">
         Contact
-      </span>
-      <div className="select-none flex justify-between mt-[30px] w-[10%]">
-        <img src="/github.svg" alt="github" className="w-[30px] sm:w-[35px] mr-4"/>
-      <img src="linkedin.svg" alt="linkedin" className="w-[34px] sm:w-[39px] "/>
+      </span></a>
+      <div className="select-none flex justify-between mt-[30px] w-[20%]">
+        <a href="https://github.com/believegilbert"><img src="/github.svg" alt="github" className="w-[30px] sm:w-[35px] mr-4"/></a>
+     <a> <img src="linkedin.svg" alt="linkedin" className="w-[48px] sm:w-[49px] "/></a>
       </div>
       </div>
       
@@ -33,9 +33,9 @@ const Home = () => {
 
   </div>
   </div>
-  <div className=""><div className="w-[80%] max-w-3xl mx-auto my-12 px-6 py-8 bg-white dark:bg-gray-900 rounded-2xl shadow-xl border-l-4" style={{ borderColor: '#1b91f1' }}>
-  <h2 className="text-xl md:text-2xl font-medium italic leading-relaxed text-gray-800 dark:text-gray-200">
-    – <span style={{ color: '#1289eb' }}>Bringing your ideas to reality, one code at a time.</span>
+  <div className=""><div className="w-[80%] max-w-3xl mx-auto my-12 px-6 py-6 sm:py-8 bg-white dark:bg-gray-900 rounded-2xl shadow-xl border-l-4" style={{ borderColor: '#1b91f1' }}>
+  <h2 className="text-sm sm:text-[1.3rem] md:text-[1.5rem]  font-medium italic leading-relaxed text-gray-800 dark:text-gray-200">
+    – <span style={{ color: '#1289eb' }}>"Bringing your ideas to reality, one code at a time."</span>
   </h2>
 </div>
 

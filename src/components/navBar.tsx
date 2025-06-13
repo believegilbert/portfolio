@@ -8,12 +8,12 @@ const NavBar = () => {
   return (
     
       <div className="">
-        <div className="fixed top-0 mx-auto w-[100%]">
-        <div className="bg-[white] flex justify-center items-center p-4 pt-[2rem] mx-auto w-[95%]">
+        <div className="fixed top-0 mx-auto w-[100%] bg-white">
+        <div className="flex justify-center items-center p-4 pt-[2rem] mx-auto w-[95%]">
           <div className="flex justify-space-between w-[80%]">
           
         <div>
-          <a>
+          <a href="#home">
           <h1 className="text-[12px] bg-[#339bf0] py-[3px] px-[15px] rounded-[1rem] sm:text-[14px] md:text-[16px] font-bold text-[white] select-none">
             Gils
           </h1>
@@ -41,14 +41,14 @@ const NavBar = () => {
 
       {isOpen && (
         <div className="absolute md:hidden mt-[18rem] sm:mt-[17rem] sm:mr-[5rem] mr-[3rem] flex justify-end w-[100%]">
-          <div className="mt-[1.9rem] pb-[10px] mr-[1.5rem] select-none w-[70%] flex justify-center backdrop-blur-md  bg-[#339bf0]/60 rounded-2xl text-[white]">
+          <div className="mt-[1.9rem] pb-[10px] mr-[1.5rem] select-none w-[70%] flex justify-center backdrop-blur-sm  bg-black/20 rounded-2xl text-[white]">
         <div className="flex flex-col w-[100%] items-center space-y-2 mt-[1rem]">
-            <button className=" rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/30 active:bg-[#339bf0]/80 w-[90%]">Home</button>
-          <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/30 active:bg-[#339bf0]/80 w-[90%]"><a href="#about">About</a></button>
-          <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/30 active:bg-[#339bf0]/80 w-[90%]">Skills</button>
-          <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/30 active:bg-[#339bf0]/80 w-[90%]">Work</button>
-          <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/30 active:bg-[#339bf0]/80 w-[90%]"><a href="#articles">Articles</a></button>
-          <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/30 active:bg-[#339bf0]/80 w-[90%]">Contact</button>
+            <button className=" rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]">Home</button>
+          <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]"><a href="#about">About</a></button>
+          <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]">Skills</button>
+          <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]">Work</button>
+          <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]"><a href="#articles">Articles</a></button>
+          <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]">Contact</button>
      </div></div>
         </div>
       )}
