@@ -1,7 +1,7 @@
 const Skills = () => {
   return (
     <div className="mt-[3.5rem] sm:mt-[5rem]">
-      <h1 className="select-none text-center text-[#1289eb] font-bold text-[1.3rem] sm:text-[1.9rem] underline underline-offset-4 mb-[2rem]">Skills</h1>
+      <h1 className="select-none text-center text-[#1289eb] font-medium sm:font-bold text-[1.3rem] sm:text-[1.9rem] underline underline-offset-4 mb-[2rem]">Skills</h1>
     
     <div className="mt-[3.5rem] flex w-[80%] max-w-[1200px] justify-between items-center mx-auto">
     <div className="flex flex-1 justify-center items-center ml-[1rem]">
@@ -34,38 +34,17 @@ const Skills = () => {
     </div>
 
     <div className="w-[100%] flex justify-end">
-      <img src="./skills.jpg" className="w-[80%] sm:w-[50%] md:w-[60%] lg:w-[50%] rounded-[1rem]"/>
+      <img src="./skills.jpg" className="w-[80%] sm:w-[50%] md:w-[60%] lg:w-[50%] rounded-[10rem] shadow-2xl hover:scale-105 transition-transform duration-300  active:scale-105 active:transition-transform active:duration-300"/>
     </div>
     </div>
 
-    <div className="flex w-[80%] max-w-[800px] mx-auto justify-between mt-[2.5rem]">
-    <div>
-      <h2 className="text-[18px] sm:text-[21px] md:text-[24px] font-bold underline underline-offset-3">Frontend </h2>
-      <ul>
-        <li>Html5</li>
-        <li>Css3</li>
-        <li className="mb-[1.3rem]">Javascript</li>
-        <li className="font-bold underline underline-offset-3 mb-[0.4rem]">Frameworks</li>
-        <li>ReactJs</li>
-        <li>VueJs</li>
-      </ul>
+<div className="block space-y-3 w-[85%] mx-auto md:w-[70%] md:flex md:space-x-4 mt-[2rem]">
+  <div className="flex flex-1 bg-gray-900 text-gray-300 h-[550px] rounded-lg  justify-center"><h1 className="mt-[1.5rem] text-[1.1rem] font-medium">Frontend Development</h1></div>
+  <div className="flex flex-1 bg-gray-900 text-gray-300 h-[550px] rounded-lg justify-center"><h1 className="mt-[1.5rem] text-[1.1rem] font-medium">Backend Development</h1> </div>
+</div>
+     
     </div>
-    <div>
-      <h2 className="text-[18px] sm:text-[21px] md:text-[24px] font-bold underline underline-offset-3">Backend </h2>
-      <ul>
-        <li className="mb-[1.3rem]">Nodejs</li>
-        <li className="font-bold underline underline-offset-3 mb-[0.4rem]">Frameworks</li>
-        <li>Expressjs</li>
-      </ul>
-    </div>
-    <div>
-      <h2 className="text-[18px] sm:text-[21px] md:text-[24px] font-bold underline underline-offset-3">Database </h2>
-      <ul>
-        <li>MongoDB</li>
-      </ul>
-    </div>
-    </div>
-    </div>
+   
 
     
   )

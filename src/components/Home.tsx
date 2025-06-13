@@ -1,12 +1,13 @@
 const Home = () => {
   return (
-    <div className="mt-[3.8rem] sm:mt-[10rem]">
+    <div className="mt-[3.8rem] sm:mt-[10rem] flex flex-col mx-auto w-[100%]">
       <div className="flex justify-center">
-  <div className="block sm:flex items-center justify-between w-[80%] max-w-[1200px]">
-    
+        
+  <div className="block sm:flex items-center justify-between mx-auto w-[70%]">
+    <div>
     {/* Text Section */}
     <div className="flex justify-center sm:flex-1 mb-[10px]">
-      <div>
+      <div className="">
       <div className="flex flex-col font-bold select-none text-[1.5rem] sm:text-[2rem] md:text-[2.5rem] lg:text-[3.5rem] mb-[1.5rem]">
         <span>Hi,</span>
         <span>I'm <span className="text-[#1289eb]">Gilbert</span></span>
@@ -23,14 +24,23 @@ const Home = () => {
       </div>
       
     </div>
-
+</div>
     {/* Image Section */}
-    <div className="flex-1 flex justify-center">
-      <img src="/myportfolioheroimage.png" className="select-none w-[255px] sm:w-full max-w-full h-auto" alt="Hero" />
+    <div className=" flex flex-1 justify-end">
+      <div className="">      <img src="/myportfolioheroimage.png" className="select-none sm:w-full max-w-full h-auto" alt="Hero" />
     </div>
+</div>
 
   </div>
+  </div>
+  <div className=""><div className="w-[80%] max-w-3xl mx-auto my-12 px-6 py-8 bg-white dark:bg-gray-900 rounded-2xl shadow-xl border-l-4" style={{ borderColor: '#1b91f1' }}>
+  <h2 className="text-xl md:text-2xl font-medium italic leading-relaxed text-gray-800 dark:text-gray-200">
+    – <span style={{ color: '#1289eb' }}>Bringing your ideas to reality, one code at a time.</span>
+  </h2>
 </div>
+
+</div>
+
 
     </div>
   );

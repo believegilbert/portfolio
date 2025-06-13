@@ -41,14 +41,15 @@ const NavBar = () => {
 
       {isOpen && (
         <div className="absolute md:hidden mt-[18rem] sm:mt-[17rem] sm:mr-[5rem] mr-[3rem] flex justify-end w-[100%]">
-          <div className="mt-[-1.5rem] pb-[10px] pl-[10px] mr-[1.5rem] select-none backdrop-blur-md bg-[#339bf0]/60 rounded-2xl text-[white]">
-          <p className="mr-15 mt-[0.8rem] text-[14px] sm:text-[16px]">Home</p>
-          <p className="mr-15 mt-[1rem] text-[14px] sm:text-[16px]">About</p>
-          <p className="mr-15 mt-[1rem] text-[14px] sm:text-[16px]">Skills</p>
-          <p className="mr-15 mt-[1rem] text-[14px] sm:text-[16px]">Work</p>
-          <p className="mr-15 mt-[1rem] text-[14px] sm:text-[16px]">Articles</p>
-          <p className="mr-15 mt-[1rem] text-[14px] sm:text-[16px]">Contact</p>
-     </div>
+          <div className="mt-[1.9rem] pb-[10px] mr-[1.5rem] select-none w-[70%] flex justify-center backdrop-blur-md  bg-[#339bf0]/60 rounded-2xl text-[white]">
+        <div className="flex flex-col w-[100%] items-center space-y-2 mt-[1rem]">
+            <button className=" rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/30 active:bg-[#339bf0]/80 w-[90%]">Home</button>
+          <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/30 active:bg-[#339bf0]/80 w-[90%]"><a href="#about">About</a></button>
+          <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/30 active:bg-[#339bf0]/80 w-[90%]">Skills</button>
+          <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/30 active:bg-[#339bf0]/80 w-[90%]">Work</button>
+          <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/30 active:bg-[#339bf0]/80 w-[90%]"><a href="#articles">Articles</a></button>
+          <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/30 active:bg-[#339bf0]/80 w-[90%]">Contact</button>
+     </div></div>
         </div>
       )}
       

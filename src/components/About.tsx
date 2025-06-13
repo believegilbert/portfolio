@@ -1,22 +1,22 @@
 const About = () => {
   return (
-    <div id="about" className="mt-[3.5rem] about">
-      <h1 className="select-none text-[#1289eb] text-center font-bold text-[1.3rem] sm:text-[1.9rem] underline underline-offset-4">
+    <div id="about" className="mt-[3.5rem] about mx-auto w-80%">
+      <h1 className="select-none text-[#1289eb] text-center font-medium sm:font-bold text-[1.3rem] sm:text-[1.9rem] underline underline-offset-4">
         About
       </h1>
       <div className="flex justify-center mt-[2.5rem] items-center">
-        <div className="sm:flex items-center mx-auto sm:justify-between w-[80%] max-w-[1200px]">
+        <div className="sm:flex items-center mx-auto sm:justify-between w-[80%] ">
 
         {/* image section */}
         <div className="float-left mr-[7.5%] w-[47%] sm:flex-1 sm:flex sm:justify-center">
-          <img src="/aboutImg.jpg"  className="select-none sm:w-[75%] sm:h-[vh]"/>
+          <img src="/aboutImg.jpg"  className="select-none sm:w-[65%] sm:h-[vh] rounded-[10rem] shadow-[0_1px_7px_] sm:shadow-[0_7px_15px] hover:scale-110 transition duration-300  active:scale-105 transition-transform duration-300"/>
         </div>
 
         {/* text section */}
         <div className=" sm:flex-1 sm:flex sm:justify-center">
           <div>
-          <h2 className="text-[1.2rem] sm:text-[1.6rem] font-bold">I'm Believe Gilbert</h2>
-          <p className="mt-[0.7rem] text-[15px] sm:text-[1.1rem] text-justify">
+          <h2 className="text-[1rem] sm:text-[1.6rem] font-bold">I'm Believe Nchere-awaji Gilbert</h2>
+          <p className="mt-[0.7rem] text-[14px] font-serif sm:text-[1.1rem] text-justify">
           
            Software Engineer passionate about building thoughtful, full-stack
             web applications using React.js, Node.js, Express, and MongoDB. I
