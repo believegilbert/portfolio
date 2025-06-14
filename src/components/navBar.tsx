@@ -112,96 +112,97 @@ const NavBar = () => {
             </div>
           </div>
 
-          {isOpen && ( 
+          {isOpen && (
             <div className="absolute md:hidden mt-[18rem] sm:mt-[17rem] sm:mr-[5rem] mr-[3rem] flex justify-end w-[100%]">
-             <Scrollspy
-                  items={["home", "about", "projects", "contact"]}
-                  currentClassName="text-[#1b91f1] font-bold underline"
-                  offset={-100}
-                  className="flex space-x-6 text-gray-400"
-                >
-                   <div className="mt-[1.9rem] pb-[10px] mr-[1.5rem] select-none w-[70%] flex justify-center backdrop-blur-sm  bg-black/20 rounded-2xl text-[white]">
-               
-                 
+              <Scrollspy
+                items={["home", "about", "projects", "contact"]}
+                currentClassName="text-[#1b91f1] font-bold underline"
+                offset={-100}
+                className="flex space-x-6 text-gray-400 w-[70%]"
+              >
+                <div className="mt-[1.9rem] pb-[10px] mr-[1.5rem] select-none w-[90%] flex justify-center backdrop-blur-sm  bg-black/20 rounded-2xl text-[white]">
                   <div className="flex flex-col w-[100%] items-center space-y-2 mt-[1rem]">
                     <Link
                       smooth={true}
                       duration={1000} // <-- increase from 500 to 1000ms
                       offset={-80}
                       spy={true}
-                      activeClass="text-blue-500"
+                      activeClass="bg-[#339bf0]/40"
                       to="home"
+                      className="text-center rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]"
                     >
-                      <button className=" rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]">
-                        Home
-                      </button>
+                     
+                      Home
                     </Link>
+
                     <Link
                       smooth={true}
                       duration={1000} // <-- increase from 500 to 1000ms
                       offset={-80}
                       spy={true}
-                      activeClass="text-blue-500"
+                      activeClass="bg-[#339bf0]/40"
+                      className="text-center rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]"
                       to="about"
                     >
-                      <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]">
-                        About
-                      </button>
+                      {" "}
+                      About
                     </Link>
+
                     <Link
                       smooth={true}
                       duration={1000} // <-- increase from 500 to 1000ms
                       offset={-80}
                       spy={true}
-                      activeClass="text-blue-500"
+                      activeClass="bg-[#339bf0]/40"
+                      className="text-center rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]"
                       to="skills"
                     >
-                      <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]">
-                        Skills
-                      </button>
+                      {" "}
+                      Skills{" "}
                     </Link>
+
                     <Link
                       smooth={true}
                       duration={1000} // <-- increase from 500 to 1000ms
                       offset={-80}
                       spy={true}
-                      activeClass="text-blue-500"
+                      activeClass="bg-[#339bf0]/40"
+                      className="text-center rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]"
                       to="work"
                     >
-                      <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]">
-                        Work
-                      </button>
+                      {" "}
+                      Work{" "}
                     </Link>
+
                     <Link
                       smooth={true}
                       duration={1000} // <-- increase from 500 to 1000ms
                       offset={-80}
                       spy={true}
-                      activeClass="text-blue-500"
+                      activeClass="bg-[#339bf0]/40"
+                      className="text-center rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]"
                       to="articles"
                     >
-                      <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]">
-                        Articles
-                      </button>
+                      {" "}
+                      Articles{" "}
                     </Link>
+
                     <Link
                       smooth={true}
                       duration={1000} // <-- increase from 500 to 1000ms
                       offset={-80}
                       spy={true}
-                      activeClass="text-blue-500"
+                      activeClass="bg-[#339bf0]/40"
+                      className="text-center rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]"
                       to="contact"
                     >
-                      <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]">
-                        Contact
-                      </button>
+                      {" "}
+                      Contact{" "}
                     </Link>
                   </div>
-                
-              </div> 
+                </div>
               </Scrollspy>
             </div>
-           
           )}
         </div>
       </div>
