@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="overflow-x-hidden">
       <NavBar />
       <div data-aos="fade-up" data-aos-delay="300"  className="relative z-0">
         <Home />
@@ -46,7 +46,7 @@ function App() {
       </div>
 
       <Footer />
-    </>
+    </div>
   );
 }
 

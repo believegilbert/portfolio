@@ -21,7 +21,14 @@ const NavBar = () => {
 
             <div className="hidden md:flex md:ml-[2rem] select-none justify-center w-[100%] text-[#0f1632]">
               <Scrollspy
-                items={["home", "about", "skills", "work", "articles", "contact"]}
+                items={[
+                  "home",
+                  "about",
+                  "skills",
+                  "work",
+                  "articles",
+                  "contact",
+                ]}
                 currentClassName="text-[#1b91f1] font-bold underline"
                 offset={-100}
                 className="flex space-x-6 text-gray-400"
@@ -105,16 +112,18 @@ const NavBar = () => {
             </div>
           </div>
 
-          {isOpen && (
+          {isOpen && ( 
             <div className="absolute md:hidden mt-[18rem] sm:mt-[17rem] sm:mr-[5rem] mr-[3rem] flex justify-end w-[100%]">
-              <div className="mt-[1.9rem] pb-[10px] mr-[1.5rem] select-none w-[70%] flex justify-center backdrop-blur-sm  bg-black/20 rounded-2xl text-[white]">
+             <Scrollspy
+                  items={["home", "about", "projects", "contact"]}
+                  currentClassName="text-[#1b91f1] font-bold underline"
+                  offset={-100}
+                  className="flex space-x-6 text-gray-400"
+                >
+                   <div className="mt-[1.9rem] pb-[10px] mr-[1.5rem] select-none w-[70%] flex justify-center backdrop-blur-sm  bg-black/20 rounded-2xl text-[white]">
                
-                  <Scrollspy
-                    items={["home", "about", "projects", "contact"]}
-                    currentClassName="text-[#1b91f1] font-bold underline"
-                    offset={-100}
-                    className="flex space-x-6 text-gray-400"
-                  > <div className="flex flex-col w-[100%] items-center space-y-2 mt-[1rem]">
+                 
+                  <div className="flex flex-col w-[100%] items-center space-y-2 mt-[1rem]">
                     <Link
                       smooth={true}
                       duration={1000} // <-- increase from 500 to 1000ms
@@ -186,12 +195,13 @@ const NavBar = () => {
                       <button className="rounded-[2rem] p-[6px] text-[13px] sm:text-[16px] bg-[#339bf0]/90 active:bg-[#339bf0]/40 w-[90%]">
                         Contact
                       </button>
-                    </Link> 
-                    </div>
-                  </Scrollspy>
-               
-              </div>
+                    </Link>
+                  </div>
+                
+              </div> 
+              </Scrollspy>
             </div>
+           
           )}
         </div>
       </div>

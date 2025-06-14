@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div id="about" className="mt-[2.5rem] md:mt-[3.5rem] about mx-auto w-80%">
+    <div id="about" className="overflow-x-hidden mt-[2.5rem] md:mt-[3.5rem] about mx-auto w-80%">
       <div
   data-aos="fade-up"
   data-aos-delay="200"
