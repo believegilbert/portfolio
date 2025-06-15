@@ -19,7 +19,7 @@ const Home = () => {
                     I'm <span className="text-[#1289eb]">Gilbert</span>
                   </span>
                   <span>a</span>
-                  <span>Software Engineer</span>
+                  <span  className="typewriter overflow-hidden border-r-4 border-white whitespace-nowrap w-0 animate-typing">Software Engineer</span>
                 </div>
 
                 
