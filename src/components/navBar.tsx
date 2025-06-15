@@ -34,6 +34,7 @@ const NavBar = () => {
                 className="flex space-x-6 text-gray-400"
               >
                 <Link
+                  
                   smooth={true}
                   duration={1000} // <-- increase from 500 to 1000ms
                   offset={-80}
@@ -102,7 +103,7 @@ const NavBar = () => {
               </Scrollspy>
             </div>
 
-            <div className="md:hidden flex justify-end w-[100%] sm">
+            <div className="md:hidden flex justify-end w-[100%] sm ">
               <Hamburger
                 toggled={isOpen}
                 toggle={setIsOpen}
@@ -123,6 +124,7 @@ const NavBar = () => {
                 <div className="mt-[1.9rem] pb-[10px] mr-[1.5rem] select-none w-[90%] flex justify-center backdrop-blur-sm  bg-black/20 rounded-2xl text-[white]">
                   <div className="flex flex-col w-[100%] items-center space-y-2 mt-[1rem]">
                     <Link
+                      onClick={() => setIsOpen(false)}
                       smooth={true}
                       duration={1000} // <-- increase from 500 to 1000ms
                       offset={-80}
@@ -136,6 +138,7 @@ const NavBar = () => {
                     </Link>
 
                     <Link
+                      onClick={() => setIsOpen(false)}
                       smooth={true}
                       duration={1000} // <-- increase from 500 to 1000ms
                       offset={-80}
@@ -149,6 +152,7 @@ const NavBar = () => {
                     </Link>
 
                     <Link
+                      onClick={() => setIsOpen(false)}
                       smooth={true}
                       duration={1000} // <-- increase from 500 to 1000ms
                       offset={-80}
@@ -162,6 +166,7 @@ const NavBar = () => {
                     </Link>
 
                     <Link
+                      onClick={() => setIsOpen(false)}
                       smooth={true}
                       duration={1000} // <-- increase from 500 to 1000ms
                       offset={-80}
@@ -175,6 +180,7 @@ const NavBar = () => {
                     </Link>
 
                     <Link
+                      onClick={() => setIsOpen(false)}
                       smooth={true}
                       duration={1000} // <-- increase from 500 to 1000ms
                       offset={-80}
@@ -188,6 +194,7 @@ const NavBar = () => {
                     </Link>
 
                     <Link
+                      onClick={() => setIsOpen(false)}
                       smooth={true}
                       duration={1000} // <-- increase from 500 to 1000ms
                       offset={-80}
