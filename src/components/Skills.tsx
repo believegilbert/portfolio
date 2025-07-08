@@ -181,7 +181,7 @@ const Skills = () => {
                       alt={tech.name}
                       className="w-10 h-10 mb-2 filter invert"
                     />
-                    <div className="w-[50px]"><p className="truncate" title={tech.name}>{tech.name}</p></div>
+                    <div className="md:w-[80px] lg:w-[50px] xl:w-[80px] 2xl:w-full"><p className="md:truncate" title={tech.name}>{tech.name}</p></div>
                     
                   </div>
                 ))}
@@ -199,9 +199,9 @@ const Skills = () => {
         </div>
 
         <div data-aos="fade-right" data-aos-delay="300" className="flex flex-1">
-          <div className="flex flex-1 bg-gray-900 text-gray-300 h-[490px] md:h-[550px] rounded-[3rem] justify-center items-center px-8 py-6">
+          <div className="flex flex-1 bg-gray-900 text-gray-300 h-[490px] md:h-[550px] rounded-[3rem] justify-center items-center px-7 py-6">
             <div className="text-center space-y-6">
-              <h1 className="text-[1.1rem] sm:text-2xl font-semibold text-grsy-300">
+              <h1 className="text-[1.1rem] sm:text-2xl font-semibold text-gray-300">
                 Soft Skills
               </h1>
 
@@ -228,8 +228,8 @@ const Skills = () => {
                     <div className="w-10 h-10 mb-2 bg-white text-black flex items-center justify-center rounded font-bold text-xs">
                       {skill[0]}
                     </div>
-                    <div className="w-[50px] text-center ">
-                      <p className="truncate " title={skill}>{skill}</p>
+                    <div className="md:w-[70px] lg:w-[50px] xl:w-[70px] 2xl:w-[90%] text-center ">
+                      <p className="md:truncate 2xl:truncate-none " title={skill}>{skill}</p>
                     </div>
                   </div>
                 ))}
