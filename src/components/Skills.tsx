@@ -181,7 +181,8 @@ const Skills = () => {
                       alt={tech.name}
                       className="w-10 h-10 mb-2 filter invert"
                     />
-                    <span>{tech.name}</span>
+                    <div className="w-[50px]"><p className="truncate" title={tech.name}>{tech.name}</p></div>
+                    
                   </div>
                 ))}
 
@@ -227,9 +228,9 @@ const Skills = () => {
                     <div className="w-10 h-10 mb-2 bg-white text-black flex items-center justify-center rounded font-bold text-xs">
                       {skill[0]}
                     </div>
-                    <span className="text-center">
-                      <p className="">{skill}</p>
-                    </span>
+                    <div className="w-[50px] text-center ">
+                      <p className="truncate " title={skill}>{skill}</p>
+                    </div>
                   </div>
                 ))}
               </div>
