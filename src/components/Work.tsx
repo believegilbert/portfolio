@@ -17,7 +17,7 @@ const Work = () => {
             <a href="https://aichat-rho-sepia.vercel.app/">
               <img
                 src="/chatai.png"
-                className="w-[100%] h-[100%] rounded-xl shadow-[10px_10px_20px_rgba(0,0,0,0.4)] hover:scale-105 transition-transform duration-100 active:shadow-2xl active:scale-105 active:transition-transform active:duration-100"
+                className="w-[100%] h-auto rounded-xl shadow-[10px_10px_20px_rgba(0,0,0,0.4)] hover:scale-105 transition-transform duration-100 active:shadow-2xl active:scale-105 active:transition-transform active:duration-100"
               />
             </a>
             <span className="text-xs sm:text-[1.2rem] text-gray-500 italic font-medium">
@@ -30,7 +30,7 @@ const Work = () => {
             
               <img
                 src="/sendit.png"
-                className="w-[100%] h-[100%] rounded-xl shadow-2xl hover:scale-105 transition-transform duration-300 active:shadow-2xl active:scale-105 active:transition-transform active:duration-300"
+                className="w-[100%] h-auto rounded-xl shadow-2xl hover:scale-105 transition-transform duration-300 active:shadow-2xl active:scale-105 active:transition-transform active:duration-300"
               />
               <span className="text-xs sm:text-[1.2rem] text-gray-500 italic font-medium">
                 <span className="font-bold">Parcel Delivery</span> — React,
@@ -43,7 +43,7 @@ const Work = () => {
             <a href="https://gilsblogginapi.onrender.com">
               <img
                 src="/gilsblogAPI.png"
-                className="w-[100%] h-[100%] rounded-xl shadow-[10px_10px_20px_rgba(0,0,0,0.4)] hover:scale-105 transition-transform duration-100 active:shadow-2xl active:scale-105 active:transition-transform active:duration-100"
+                className="w-[100%] h-auto rounded-xl shadow-[10px_10px_20px_rgba(0,0,0,0.4)] hover:scale-105 transition-transform duration-100 active:shadow-2xl active:scale-105 active:transition-transform active:duration-100"
               />
             </a>
             <span className="text-xs sm:text-[1.2rem] text-gray-500 italic font-medium">
@@ -56,7 +56,7 @@ const Work = () => {
             <a href="https://scissor1.onrender.com">
               <img
                 src="/scissors.png"
-                className="w-[100%] h-[100%] rounded-xl shadow-[10px_10px_20px_rgba(0,0,0,0.4)] hover:scale-105 transition-transform duration-100 active:shadow-2xl active:scale-105 active:transition-transform active:duration-100"
+                className="w-[100%] h-auto rounded-xl shadow-[10px_10px_20px_rgba(0,0,0,0.4)] hover:scale-105 transition-transform duration-100 active:shadow-2xl active:scale-105 active:transition-transform active:duration-100"
               />
               <span className="text-xs text-gray-500 italic font-medium sm:text-[1.2rem]">
                 <span className="font-bold">Url Shortener API (Backend)</span> —
@@ -69,7 +69,7 @@ const Work = () => {
             <a href="https://student-mgt-system-gilbert-believe.vercel.app">
               <img
                 src="/studentmgtS.png"
-                className="w-[100%] h-[100%] rounded-xl shadow-[10px_10px_20px_rgba(0,0,0,0.4)] hover:scale-105 transition-transform duration-100 active:shadow-2xl active:scale-105 active:transition-transform active:duration-100"
+                className="w-[100%] h-auto rounded-xl shadow-[10px_10px_20px_rgba(0,0,0,0.4)] hover:scale-105 transition-transform duration-100 active:shadow-2xl active:scale-105 active:transition-transform active:duration-100"
               />
             </a>
             <span className="text-xs sm:text-[1.2rem] text-gray-500 italic font-medium">
