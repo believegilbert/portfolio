@@ -9,8 +9,8 @@ const NavBar = () => {
   return (
     <div className="">
       <div className="fixed top-0 mx-auto w-[100%] bg-white z-50">
-        <div className="flex justify-center items-center p-4 pt-[2rem] mx-auto w-[95%]">
-          <div className="flex justify-space-between w-[80%]">
+        <div className="flex justify-center items-center p-4 pt-[2rem] mx-auto md:w-[100%] lg:w-[95%]">
+          <div className="flex justify-space-between w-[100%]">
             <div>
               <a href="#home">
                 <h1 className="text-[12px] bg-[#339bf0] py-[3px] px-[15px] rounded-[1rem] sm:text-[14px] md:text-[16px] font-bold text-[white] select-none">
@@ -19,7 +19,7 @@ const NavBar = () => {
               </a>
             </div>
 
-            <div className="hidden md:flex md:ml-[2rem] select-none justify-center w-[100%] text-[#0f1632]">
+            <div className="hidden md:flex lg:ml-[2rem] select-none justify-center md:w-[90%] lg:w-[95%] text-[#0f1632]">
               <Scrollspy
                 items={[
                   "home",

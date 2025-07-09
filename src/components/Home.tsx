@@ -1,3 +1,5 @@
+import SmartImage from "./SmartImage";
+
 const Home = () => {
   return (
     <div
@@ -57,10 +59,11 @@ const Home = () => {
   data-aos="fade-up"
   data-aos-delay="500"
 >
-              <img
+              <SmartImage
                 src="/myportfolioheroimage.png"
                 className="select-none sm:w-full max-w-full h-auto"
-                alt="Hero"
+                alt="Gilbert's image"
+                placeholderClass="rounded-[3rem] animate-pulse"
               />
              
             </div>
