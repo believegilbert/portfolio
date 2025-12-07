@@ -27,7 +27,7 @@ const About = () => {
   data-aos-delay="700"
 >
           <h2 className="text-[1rem] sm:text-[1.6rem] font-bold">I'm Believe Nchere-awaji Gilbert</h2>
-          <p className="mt-[0.7rem] text-[14px] font-serif sm:text-[1.1rem] text-justify">
+          <p className="mt-[0.7rem] text-[14px] font-serif sm:text-[1.1rem] text-left leading-relaxed hyphens-auto">
           
            Software Engineer passionate about building thoughtful, full-stack
             web applications using React.js, Node.js, Express, and MongoDB. I

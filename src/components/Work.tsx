@@ -29,7 +29,7 @@ const Work = () => {
             <a href="https://adminsendit.netlify.app/">
             
               <img
-                src="/sendit.png"
+                src="/senditImage.png"
                 className="w-[100%] h-auto rounded-xl shadow-2xl hover:scale-105 transition-transform duration-300 active:shadow-2xl active:scale-105 active:transition-transform active:duration-300"
               />
               <span className="text-xs sm:text-[1.2rem] text-gray-500 italic font-medium">

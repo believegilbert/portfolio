@@ -39,5 +39,5 @@ body{
 }
 
 .animate-typing {
-  animation: typing 4.5s steps(20, end) forwards, blink 0.75s step-end infinite;
+  animation: typing 2.5s steps(20, end) forwards, blink 0.75s step-end infinite;
 }
