@@ -26,7 +26,20 @@ const About = () => {
   data-aos="fade-up"
   data-aos-delay="700"
 >
-          <h2 className="text-[1rem] sm:text-[1.6rem] font-bold">I'm Believe Nchere-awaji Gilbert</h2>
+          <h2 className="text-[1rem] sm:text-[1.6rem] font-bold cursor-pointer">
+            <a href="https://www.google.com/search?q=believe+Nchere-awaji+gilbert&sca_
+            esv=d7139353ec3d0296&rlz=1C1RLNS_enNG1003NG1003&sxsrf=AE3TifP7wIhP2beaFwAD50J5k
+            TsSPQzBuQ%3A1765127894572&ei=1rY1ab_YIqaMhbIPvv6DkQs&ved=0ahUKEwi_m47p_auRAxUmRk
+            EAHT7_ILIQ4dUDCBE&uact=5&oq=believe+Nchere-awaji+gilbert&gs_lp=Egxnd3Mtd2l6LXNlcn
+            AiHGJlbGlldmUgTmNoZXJlLWF3YWppIGdpbGJlcnQyBBAjGCcyBhAAGAcYHjIIEAAYBRgHGB4yBhAAGAUY
+            HjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB4yCBAAGAgYChgeSNgiUPEIWMYgcAN4A
+            JABAJgBiAKgAacNqgEDMi03uAEDyAEA-AEBmAIFoAKgBMICCRAAGLADGAcYHsICCRAAGLADGAgYHsICCxAAGLADG
+            AgYChgewgIIEAAYgAQYogSYAwCIBgGQBgqSBwUzLjAuMqAHkxuyBwMyLTK4B_cDwgcFMi0xLjTIBy-ACAA&sclient
+            =gws-wiz-serp">
+               I'm Believe Nchere-awaji Gilbert
+            </a>
+           
+            </h2>
           <p className="mt-[0.7rem] text-[14px] font-serif sm:text-[1.1rem] text-left leading-relaxed hyphens-auto">
           
            Software Engineer passionate about building thoughtful, full-stack

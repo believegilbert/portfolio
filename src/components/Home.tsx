@@ -18,7 +18,17 @@ const Home = () => {
                 <div className="flex flex-col font-bold select-none text-[1.5rem] sm:text-[2rem] md:text-[2.5rem] lg:text-[3.5rem] mb-[1.5rem]">
                   <span>Hi,</span>
                   <span>
-                    I'm <span className="text-[#1289eb]">Gilbert</span>
+                    I'm <span className="text-[#1289eb] cursor-pointer">
+                      <a href="https://www.google.com/search?q=believe++gilbert&sca_esv=d7139353ec3d0296&rlz=1C1RLNS_
+                      enNG1003NG1003&sxsrf=AE3TifP8Kmq8mA7XEB08s2cX5JaNrHSbog%3A1765127871048&ei=v7Y1acjWAvGwhbIPvOCBmQQ&ved
+                      =0ahUKEwiIsvLd_auRAxVxWEEAHTxwIEMQ4dUDCBE&uact=5&oq=believe++gilbert&gs_lp=Egxnd3Mtd2l6LXNlcnAiEGJlbGll
+                      dmUgIGdpbGJlcnQyCxAAGIAEGLADGKIEMgsQABiABBiwAxiiBEicBlCZBF
+                      iZBHABeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgGgAg2YAwCIBgGQBgKSBwEx
+                      oAcAsgcAuAcAwgcDMy0xyAcJgAgA&sclient=gws-wiz-serp">
+                         Gilbert
+                      </a>
+                     
+                      </span>
                   </span>
                   <span>a</span>
                   <span  className="typewriter overflow-hidden border-r-4 border-white whitespace-nowrap w-0 animate-typing">Software Engineer</span>
@@ -26,7 +36,10 @@ const Home = () => {
 
                 
                   <span className="select-none text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] bg-[#1b91f1] active:bg-[#48acff] py-[6px] px-[17px] text-white rounded-[0.5rem]">
-                    Contact
+                  <a href="mailto:believegilbert20@gmail.com?subject=Hi%20Gilbert!&body=Can%20we%20talk%20business.">
+                     Contact
+                  </a>
+                   
                   </span>
                 
 
@@ -38,12 +51,11 @@ const Home = () => {
                       className="w-[30px] sm:w-[35px] mr-4"
                     />
                   </a>
-                  <a>
-                    {" "}
+                  <a href="https://linkedin.com/in/gilbert-believe">
                     <img
                       src="linkedin.svg"
                       alt="linkedin"
-                      className="w-[48px] sm:w-[49px] "
+                      className="w-12 sm:w-10 "
                     />
                   </a>
                 </div>
