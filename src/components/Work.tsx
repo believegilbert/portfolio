@@ -25,6 +25,20 @@ const Work = () => {
               Express, Postgresql, Nodejs.
             </span>
           </div>
+
+          <div>
+            <a href="https://jgb-accountants-london.onrender.com/">
+              <img
+                src="/JGBaccountants.png"
+                className="w-[100%] h-auto rounded-xl shadow-[10px_10px_20px_rgba(0,0,0,0.4)] hover:scale-105 transition-transform duration-100 active:shadow-2xl active:scale-105 active:transition-transform active:duration-100"
+              />
+            </a>
+            <span className="text-xs sm:text-[1.2rem] text-gray-500 italic font-medium">
+              <span className="font-bold"> JGB Accountants London</span>
+              — Accountants consultancy website UI
+            </span>
+          </div>
+
           <div>
             <a href="https://adminsendit.netlify.app/">
             
