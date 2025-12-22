@@ -16,7 +16,7 @@ const About = () => {
 
         {/* image section */}
         <div className="float-left mr-[7.5%] w-[47%] sm:flex-1 sm:flex sm:justify-center">
-          <SmartImage placeholderClass="rounded-[5rem]" alt="Gilbert smiling" src="/aboutImg.jpg"  className="select-none sm:w-[65%] sm:h-[vh] rounded-[10rem] shadow-[0_1px_7px_] sm:shadow-[0_7px_15px] hover:scale-110 transition duration-300  active:scale-105 transition-transform duration-300"/>
+          <SmartImage placeholderClass="rounded-[5rem]" alt="Believe Nchere-awaji Gilbert" src="/BelieveNchere-awajiGilbert.jpg"  className="select-none sm:w-[65%] sm:h-[vh] rounded-[10rem] shadow-[0_1px_7px_] sm:shadow-[0_7px_15px] hover:scale-110 transition duration-300  active:scale-105 transition-transform duration-300"/>
         </div>
 
         {/* text section */}
